@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<bulk_sales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bulk_sales.xsd">
+	<company code="T-1">
+ 		<company_name>T-2</company_name>
+ 		<agencies>
+ 			<agency code="T-3">
+ 				<agency_name>T-4</agency_name>
+				<transactions>
+					<transaction id="T-5">
+							<type_code>T-6</type_code>
+						<payment>
+							<call_id>T-7</call_id>
+							<certificate_number>T-9</certificate_number>
+							<product_code>T-10</product_code>
+							<plan_code>T-11</plan_code>
+							<issue_date>T-12</issue_date>
+							<channel_code>T-13</channel_code>
+							<currency_type>T-14</currency_type>
+							<frequency_code>T-15</frequency_code>
+								<beneficiary>
+									<person>
+									<name>T-16</name>
+									<document_type_code>T-17</document_type_code>
+									<document_number>T-18</document_number>
+										<address>
+										<country_code>T-19</country_code>
+										<country_name>T-20</country_name>
+										<state_code>T-21</state_code>
+										<state_name>T-22</state_name>
+										<city_code>T-23</city_code>
+										<city_name>T-24</city_name>
+										<municipality_code>T-25</municipality_code>
+										<municipality_name>T-26</municipality_name>
+										<parish>T-27</parish>
+										<zip_code>T-28</zip_code>
+										<street>T-29</street>
+										<estate>T-30</estate>
+										<building>T-31</building>
+										<floor>T-32</floor>
+										<nro>T-33</nro>
+										</address>
+									<type_person type="T-34">
+										<legal_person>
+										<economy_activity_code>T-35</economy_activity_code>
+										<economy_activity>T-36</economy_activity>
+										<office_telephone1>T-37</office_telephone1>
+										<office_telephone2>T-38</office_telephone2>
+										</legal_person>
+										</type_person>
+									</person>
+									<payment_mean>
+									<payment_mean_code>T-39</payment_mean_code>
+									<payment_mean_name>T-40</payment_mean_name>
+									<payment_type type="T-41">
+					 					<account>
+					 						<number>T-42</number>
+					 					</account>
+									</payment_type>
+								</payment_mean>
+					 		</beneficiary>
+					 		<receipt>
+								<external_id>T-43</external_id>
+							    <report_date>T-44</report_date>
+								<total_amount>T-45</total_amount>
+								<payment_detail>
+								<payment_date>T-46</payment_date>
+									<beneficiary_payment_mean_number>T-47</beneficiary_payment_mean_number>
+									<beneficiary_amount>T-48</beneficiary_amount>
+									<beneficiary_debit_transaction>T-49</beneficiary_debit_transaction>
+									<beneficiary_credit_transaction>T-50</beneficiary_credit_transaction>
+					 			</payment_detail>
+					 		</receipt>
+					 	</payment>
+					 	<response>
+							<code>T-51</code>
+							<description>T-52</description>
+					 	</response>
+					</transaction>
+				</transactions>
+			</agency>
+ 		</agencies>
+ 	</company>
+ 	<total_operations>T-53</total_operations>
+</bulk_sales>
